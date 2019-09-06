@@ -27,6 +27,6 @@ server.get('/verses', (req, res) => {
 });
 
 // watch for connections on port 5000
-server.listen(5000, () =>
+server.listen(port, () =>
   console.log(`Server running on http://localhost:${port}`)
 );
